@@ -1,0 +1,35 @@
+import io.cucumber.java.en.Given;
+import io.cucumber.java.en.When;
+import io.cucumber.java.en.Then;
+
+public class LoginSteps {
+    @Given("I am on the SauceDemo login page")
+    public void iAmOnLoginPage() {
+        // Implementasi untuk membuka halaman login
+    }
+
+    @When("I enter valid username and password")
+    public void enterValidCredentials() {
+        // Implementasi untuk memasukkan username dan password valid
+    }
+
+    @When("I enter invalid username and password")
+    public void enterInvalidCredentials() {
+        // Implementasi untuk memasukkan username dan password yang salah
+    }
+
+    @When("I click the login button")
+    public void clickLoginButton() {
+        // Implementasi untuk mengklik tombol login
+    }
+
+    @Then("I should see the products page")
+    public void verifyProductsPage() {
+        // Implementasi untuk memverifikasi halaman produk
+    }
+
+    @Then("I should see an error message")
+    public void verifyErrorMessage() {
+        // Implementasi untuk memverifikasi pesan kesalahan
+    }
+}
